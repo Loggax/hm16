@@ -1,0 +1,38 @@
+.footer {
+    background-color: $dark-blue;
+    padding: 36px 0 45px;
+    
+    .logo-img-footer {
+        margin-bottom: 40px;
+    }
+
+    .svg-sprite {
+        background-image: url('../img/svg-sprite.svg');
+        background-position: 3px 3px;
+        background-color: aliceblue;
+        display: inline-block;
+        width: 38px;
+        height: 38px;
+        border-radius: 6px;
+        background-size: 300px;
+        margin-right: 8px;
+
+        &.screen {
+            background-position: -32px 3px;
+        }
+
+        &.hd {
+            background-position: -97px -130px;
+        }
+
+        &.dvr {
+            background-position: -63px -96px;
+        }
+
+        &.ps {
+            background-position: -65px -130px;
+            margin-right: 0;
+        }
+    }
+
+}
